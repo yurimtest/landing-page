@@ -1,0 +1,113 @@
+@font-face {
+    font-family: kopub-m;
+    src: url(font/KoPubWorldDotumMedium.ttf);
+}
+@font-face {
+    font-family: kopub-B;
+    src: url(font/KoPubWorldDotumBold.ttf);
+}
+@font-face {
+    font-family: kopub-L;
+    src: url(fonT/KoPubDotumLight.ttf);
+}
+p {
+    font-family: kopub-l;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    margin: 0;
+}
+
+div {
+  box-sizing : border-box;
+}
+body {
+  margin : 0;
+}
+html {
+  line-height : 1.15; /*기본 행간 높이*/
+}
+button {
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(58, 58, 58);
+    color:white;
+    margin-top: 20px;
+}
+
+.gradient-bg{
+    width:100vw;
+    height:55vh;
+    background-image: linear-gradient(to top,rgb(50, 87, 191),rgb(109, 174, 226));
+    padding:100px;
+    color: rgb(251, 251, 251);
+}
+.headline {
+    font-family: kopub-m;
+    font-weight: 100;
+}
+.img{
+    width: 350px;
+    float:right;
+    margin-top:-197px;
+    border-collapse: collapse;
+    
+}
+.show-portfolio-bg{
+    width:100vw;
+    height:30vh;
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    
+}
+.sp-textbox{
+    width:500px;
+    height:150px;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.icon-page-bg{
+    width:100vw;
+    height:60vh;
+    background-color:rgb(50, 87, 191);
+    clear:both;
+    padding:80px;
+}
+.icon-headline {
+    width:60%;
+    height:50px;
+    margin:auto;
+    text-align: center;
+    color:white;
+}
+.icon-container {
+    color:white;
+    text-align: center;
+    display: flex;
+    width:80%;
+    margin:auto;
+}
+.icon-container div {
+    margin:auto;
+    margin-top:60px;
+}
+.icon-container i {
+    background-color: rgb(255, 255, 255);
+    color:rgb(50, 87, 191);
+    width:120px;
+    height:120px;
+    border-radius: 80px;
+    padding-top:27px;
+    box-sizing: border-box;
+}
+.icon-container h4 {
+    font-family: kopub-b;
+    margin:0;
+    margin-top:25px;
+}
+.icon-container p {
+    margin-top:10px;
+}
