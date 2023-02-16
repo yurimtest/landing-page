@@ -50,7 +50,7 @@ button {
 .img{
     width: 350px;
     float:right;
-    margin-top:-197px;
+    margin-top:-181px;
     border-collapse: collapse;
     
 }
@@ -71,10 +71,10 @@ button {
 
 .icon-page-bg{
     width:100vw;
-    height:60vh;
+    height:50vh;
     background-color:rgb(50, 87, 191);
     clear:both;
-    padding:80px;
+    padding:70px;
 }
 .icon-headline {
     width:60%;
@@ -103,11 +103,151 @@ button {
     padding-top:27px;
     box-sizing: border-box;
 }
-.icon-container h4 {
+.icon-container h4,.portfolio-text h3 {
     font-family: kopub-b;
     margin:0;
     margin-top:25px;
 }
-.icon-container p {
+.icon-container p,.portfolio-text p {
     margin-top:10px;
+}
+
+.text-box {
+    width:100%;
+    height:50px;
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box-container {
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.portfolio-item1 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/portfolio-1.jpg);
+    width:50%;
+    height:350px;
+    background-size: cover;
+    float:left;
+    position: relative;
+}
+.white-box {
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 2;
+    border:0px solid white;
+}
+.white-box:hover {
+    border:20px solid white;
+    transition: all 0.5s;
+}
+
+.portfolio-item2 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/portfolio-2.jpg);
+    width:50%;
+    height:350px;
+    background-size: cover;
+    float:left;
+}
+.portfolio-item3 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/portfolio-3.jpg);
+    width:50%;
+    height:350px;
+    background-size: cover;
+    float:left;
+}
+.portfolio-item4 {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/portfolio-4.jpg);
+    width:50%;
+    height:350px;
+    background-size: cover;
+    float:left;
+}
+
+.portfolio-text {
+    padding:50px;
+    color:white;
+    width: 100%;
+    padding-top: 230px;
+    
+}
+.sns-bg {
+    width:100vw;
+    height:20vh;
+    background-color: white;
+}
+.sns-container {
+    margin:auto;
+    text-align: center;
+}
+.sns-container i {
+    background-color: rgb(50, 87, 191);
+    color:white;
+    width:70px;
+    height:70px;
+    border-radius: 50px;
+    padding-top:20px;
+    box-sizing: border-box;
+    margin:30px;
+    margin-top:80px;
+}
+
+
+@media screen and (max-width : 992px) {
+   .gradient-bg h1,.gradient-bg p {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .gradient-bg button {
+        display: block;
+        float:none;
+        margin:auto;
+        margin-top: 30px;
+    }
+    .gradient-bg img {
+        display: block;
+        float:none;
+        margin:auto;
+        width:230px;
+        margin-top: 31px;
+    }
+    .gradient-bg {
+        height: 67.3vh;
+    }
+    .gradient-bg p,.sp-textbox {
+        font-size: 15px;
+    }
+    .show-portfolio-bg {
+        display: flex;
+    }
+    .icon-container div {
+        width:100%;
+    }
+    .icon-container {
+        display: flex;
+        flex-direction:column;
+    }
+    .icon-page-bg {
+        height:1200px;
+    }
+    .portfolio-item1 {
+        float: none;
+        width:100%;
+    }
+    .portfolio-item2 {
+        float: none;
+        width:100%;
+    }
+    .portfolio-item3 {
+        float: none;
+        width:100%;
+    }
+    .portfolio-item4 {
+        float: none;
+        width:100%;
+    }
 }
