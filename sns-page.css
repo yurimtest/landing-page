@@ -114,4 +114,8 @@ button {
     .profile-info h2 {
         font-size: 16px;
     }
+    .row .col-6 {
+        margin-top:5px;
+        width:170px;
+    }
 }
