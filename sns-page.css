@@ -1,0 +1,117 @@
+@font-face {
+    font-family: kopub-b;
+    src: url(font/KoPubWorldDotumBold.ttf);
+}
+@font-face {
+    font-family: kopub-m;
+    src: url(font/KoPubWorldDotumMedium.ttf);
+}
+@font-face {
+    font-family: kopub-l;
+    src: url(font/KoPubDotumLight.ttf);
+}
+
+
+body {
+    margin:0;
+}
+
+div {
+    box-sizing :border-box;
+}
+
+h1 {
+    font-size :25px;
+}
+
+h2 {
+    font-size : 13px;
+    font-family: kopub-m;
+    color: rgb(29, 29, 29);
+}
+h3 {
+    font-size : 15px;
+    font-family:kopub-b;
+}
+
+h4 {
+    font-size: 13px;
+    color:#6fbaf8;
+    margin-top:10px;
+    font-family: kopub-l;
+    margin-top:12px;
+}
+button {
+    width:100px;xs
+   }
+
+.bg {
+    width:100%;
+    height :1000px;
+    background-color: #f7f9fc;
+}
+.container {
+    padding :60px;
+   display:flex;
+}
+
+.profile-top-box {
+    width:80vw;
+    height:300px;
+    background-color: white;
+    padding:40px;
+    border-radius: 10px;
+}
+.profile-img {
+    width:60%;
+    height:100%;
+    background-color:rgb(255, 255, 255);
+    padding:30px;
+    padding-top:10px;
+    float:left;
+}
+
+.location-icon {
+    float:left;
+    margin-right:5px;
+    font-size: 20px;
+    color:#6fbaf8
+}
+.profile-info {
+    width:40%;
+    height:100%;
+    background-color:rgb(255, 255, 255);
+    float:left;
+    padding-left:90px;
+    padding-top:40px;
+    border-left:1.5px solid rgb(219, 219, 219);
+}
+.row .col-6 {
+    margin-top:5px;
+    width:140px;
+}
+
+
+@media screen and (max-width :992px) {
+    .profile-top-box {
+        width:90vw;
+        height:500px;
+    }
+    .profile-img{
+        width:100%;
+        height:50%;
+        padding:0px;
+    }
+    .profile-info {
+        width:100%;
+        height:50%;
+        padding-left:20px;
+        border:none;
+    }
+    .profile-info h3 {
+        font-size: 18px;
+    }
+    .profile-info h2 {
+        font-size: 16px;
+    }
+}
