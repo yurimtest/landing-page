@@ -86,9 +86,9 @@ button {
     padding-top:40px;
     border-left:1.5px solid rgb(219, 219, 219);
 }
-.row .col-6 {
-    margin-top:5px;
-    width:140px;
+.row .col-5 {
+    height:35px;
+    
 }
 
 
@@ -114,8 +114,5 @@ button {
     .profile-info h2 {
         font-size: 16px;
     }
-    .row .col-6 {
-        margin-top:5px;
-        width:170px;
-    }
+
 }
