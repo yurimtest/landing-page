@@ -80,6 +80,9 @@ button {
     padding-top:0px;
     float:left;
 }
+.profile-img img {
+    width:190px;
+}
 
 .location-icon {
     float:left;
@@ -155,6 +158,9 @@ button {
         width:100%;
         height:50%;
         padding:0px;
+    }
+    .profile-img img {
+        width:120px;
     }
     .profile-info {
         width:100%;
