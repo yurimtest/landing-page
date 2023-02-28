@@ -163,7 +163,10 @@ button:hover {
     }
     button {
         width:80px;
-       }
+    }
+    button:hover {
+        width:79px;
+    }
 
     .profile-top-box {
         width:90vw;
