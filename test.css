@@ -115,11 +115,6 @@ div {
   width: 68vw;
   margin-top: 30px;
 }
-@media screen and (max-width: 992px) {
-  .alert-box .alert-box-green, .alert-box .alert-box-blue, .alert-box .alert-box-yellow {
-    height: 100px;
-  }
-}
 .button-blue {
   width: 100px;
   height: 40px;
@@ -185,5 +180,13 @@ div {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+@media screen and (max-width: 992px) {
+  .alert-box .alert-box-green, .alert-box .alert-box-blue, .alert-box .alert-box-yellow {
+    height: 120px;
+  }
+  .animation-navbar {
+    padding-left: 30px;
   }
 }/*# sourceMappingURL=test.css.map */

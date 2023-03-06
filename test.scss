@@ -105,12 +105,6 @@ display:flex;
     }
 }
 
-@media screen and (max-width :992px) {
-    %alert-box-design {
-        height:100px;
-    }
-}
-
 .button-blue {
     width:100px;
     height:40px;
@@ -178,5 +172,14 @@ display:flex;
     }
     100% {
         transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width :992px) {
+    %alert-box-design {
+        height:120px;
+    }
+    .animation-navbar {
+        padding-left:30px;
     }
 }
