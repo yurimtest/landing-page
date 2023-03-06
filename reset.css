@@ -1,0 +1,19 @@
+@font-face {
+  font-family: kopub-b;
+  src: url(font/KoPubWorldDotumBold.ttf);
+}
+@font-face {
+  font-family: kopub-m;
+  src: url(font/KoPubWorldDotumMedium.ttf);
+}
+@font-face {
+  font-family: kopub-l;
+  src: url(font/KoPubDotumLight.ttf);
+}
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}/*# sourceMappingURL=reset.css.map */

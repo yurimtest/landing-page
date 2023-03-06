@@ -1,0 +1,182 @@
+@use 'reset.scss' ;
+
+.container {
+padding:0;
+display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+.animation-navbar {
+    width:100vw;
+    height:70px;
+    background-color: rgb(0, 45, 104);
+    color:white;
+    padding-left:50px;
+    padding-top:20px;
+    p {
+        margin-top:10px
+    }
+
+}
+.animation-navbar:hover {
+    height:130px;
+    transition: all 0.3s;
+}
+.animation-navbar:hover p {
+    animation-name:slide-under;
+    animation-duration: 0.8s;
+}
+
+.list-box {
+    margin-top:80px;
+    ul {
+        padding:0;
+    }
+
+    li {
+    background-color: rgb(255, 255, 255);
+    border:0.7px solid rgb(191, 191, 191);
+    list-style: none;
+    width:70vw;
+    height:50px;
+    padding-left:20px;
+    font-family: kopub-m;
+    padding-top:13px;
+    }
+  .active {
+    background-color: rgb(28, 134, 255);
+    color:white;
+  }
+}
+
+%alert-box-design {
+    width:70vw;
+    height:70px;
+    border-radius: 10px;
+    padding:23px;
+    font-size:18px;
+    font-family: kopub-m;
+    margin-top:30px;
+}
+.alert-box {
+    
+    .alert-box-green {
+        @extend %alert-box-design;
+        background-color: rgb(203, 245, 203);
+        color:rgb(34, 99, 34);
+    
+        span {font-family: kopub-b;color:rgb(34, 84, 34)}
+    }
+    .alert-box-blue {
+        @extend %alert-box-design;
+        background-color: rgb(216, 246, 255);
+        color:rgb(47, 111, 151);
+    
+        span {font-family: kopub-b;color:rgb(17, 85, 110)}
+    }
+    .alert-box-yellow {
+        @extend %alert-box-design;
+        background-color: rgb(255, 252, 216);
+        color:rgb(151, 115, 47);
+    
+        span {font-family: kopub-b;color:rgb(110, 73, 17)}
+    }
+}
+%col-box-design {
+        border:1px solid rgb(210, 203, 221);
+        background-color: rgb(235, 228, 248);
+        height:50px;
+        padding: 12px;;
+}
+
+
+.column-box {
+    width:68vw;
+    margin-top:30px;
+    
+    .col-6 {
+        @extend %col-box-design;
+    }
+    .col-4 {
+        @extend %col-box-design;
+    }
+    .col-3 {
+        @extend %col-box-design;
+    }
+}
+
+@media screen and (max-width :992px) {
+    %alert-box-design {
+        height:100px;
+    }
+}
+
+.button-blue {
+    width:100px;
+    height:40px;
+    color:white;
+    background-color: skyblue;
+    border:none;
+    border-radius: 5px;
+    font-family: kopub-b;
+    margin-top:30px;
+}
+.button-blue:hover {
+    animation-name: 회전위아래 ;
+    animation-duration: 0.5s;
+}
+
+.button-plus-box {
+ width:70vw;
+
+ .button-plus {
+    font-size: 18px;
+    color:rgb(28, 134, 255);
+}
+.button-plus:hover {
+    animation-name: 회전-확대 ;
+    animation-duration: 1s;
+}
+}
+
+
+
+@keyframes 회전위아래 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(20deg);
+    }
+    50% {
+        transform: rotateZ(-20deg);
+    }
+    75% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(-10deg);
+    }
+}
+@keyframes 회전-확대 {
+    0% {
+        transform: rotateZ(0deg) scale(1);
+    }
+    50% {
+        transform: rotateZ(-30deg);
+    }
+    100% {
+        transform: rotateZ(50deg) scale(2);
+    }
+}
+@keyframes slide-under {
+    0% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
