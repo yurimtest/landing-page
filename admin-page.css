@@ -339,12 +339,12 @@ p {
     font-size: 8px;
   }
   .input-animation {
-    width: 70px;
+    width: 80px;
     height: 30px;
     font-size: 13px;
   }
   .input-animation:focus {
-    width: 100px;
+    width: 90px;
   }
   .search-botton {
     height: 30px;
