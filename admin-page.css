@@ -191,6 +191,9 @@ p {
 .summary-box4 .caret-text, .summary-box3 .caret-text, .summary-box2 .caret-text, .summary-box1 .caret-text {
   float: right;
 }
+.summary-box4 .caret-text i, .summary-box3 .caret-text i, .summary-box2 .caret-text i, .summary-box1 .caret-text i {
+  margin-right: 5px;
+}
 .summary-box4 .caret-text p, .summary-box3 .caret-text p, .summary-box2 .caret-text p, .summary-box1 .caret-text p {
   color: white;
   font-size: 15px;
