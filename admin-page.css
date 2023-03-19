@@ -339,10 +339,10 @@ p {
     font-size: 9px;
   }
   .input-animation {
-    width: 130px;
+    width: 100px;
   }
   .input-animation:focus {
-    width: 150px;
+    width: 130px;
   }
   .box-mainbar {
     padding: 30px;
