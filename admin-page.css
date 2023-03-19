@@ -340,9 +340,19 @@ p {
   }
   .input-animation {
     width: 90px;
+    height: 30px;
+    font-size: 13px;
   }
   .input-animation:focus {
     width: 120px;
+  }
+  .search-botton {
+    height: 30px;
+    padding: 0px;
+  }
+  .search-botton i {
+    font-size: 13px;
+    padding-top: 10px;
   }
   .box-mainbar {
     padding: 30px;
