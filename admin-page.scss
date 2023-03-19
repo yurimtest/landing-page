@@ -169,8 +169,13 @@ font-size: 10px;
        margin:0;
        margin-top:5px;
     }
-    p {
-        color:white;
+    
+    .caret-text {
+        float:right;
+        p {
+            color:white;
+            font-size: 15px;
+        }
     }
     
 }
@@ -371,20 +376,21 @@ h3 {
         }
         h2 {
             color:white;
-            font-size: 15px;
+            font-size: 20px;
             margin:0;
             margin-top:20px;
         }
         h4 {
            color:$mainbar-bg;
-           font-size: 10px; 
+           font-size: 15px; 
            margin:0;
            margin-top:5px;
         }
     }
+    
     .cart-container {
         .cart-box {
-        height:200px;
+        height:180px;
         margin-bottom:30px;
        }
     }
