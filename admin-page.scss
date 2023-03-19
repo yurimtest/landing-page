@@ -361,7 +361,7 @@ h3 {
         padding:15px;
     }
     .summary-container {
-        height: 330px;
+        height: 350px;
     }
     %summary-box-content {
         padding:15px;
@@ -376,16 +376,25 @@ h3 {
         }
         h2 {
             color:white;
-            font-size: 20px;
+            font-size: 15px;
             margin:0;
-            margin-top:20px;
+            margin-top:10px;
         }
         h4 {
            color:$mainbar-bg;
-           font-size: 15px; 
+           font-size: 12px; 
            margin:0;
            margin-top:5px;
         }
+        .caret-text {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .caret-text p {
+        font-size: 0px;
+       
     }
     
     .cart-container {

@@ -360,7 +360,7 @@ p {
     padding: 15px;
   }
   .summary-container {
-    height: 330px;
+    height: 350px;
   }
   .summary-box1, .summary-box2, .summary-box3, .summary-box4 {
     padding: 15px;
@@ -376,15 +376,21 @@ p {
   }
   .summary-box1 h2, .summary-box2 h2, .summary-box3 h2, .summary-box4 h2 {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .summary-box1 h4, .summary-box2 h4, .summary-box3 h4, .summary-box4 h4 {
     color: #ecf6fb;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
     margin-top: 5px;
+  }
+  .summary-box1 .caret-text p, .summary-box2 .caret-text p, .summary-box3 .caret-text p, .summary-box4 .caret-text p {
+    font-size: 12px;
+  }
+  .caret-text p {
+    font-size: 0px;
   }
   .cart-container .cart-box {
     height: 180px;
