@@ -100,8 +100,6 @@ p {
   border: 1.5px solid rgb(212, 212, 212);
   padding: 10px;
   transition: width 1s;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .input-animation:focus {
@@ -342,8 +340,6 @@ p {
     width: 80px;
     height: 30px;
     font-size: 13px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
   }
   .input-animation:focus {
     width: 80px;
@@ -357,10 +353,13 @@ p {
     padding-top: 10px;
   }
   .box-mainbar {
-    padding: 30px;
+    padding: 15px;
   }
   .summary-container {
-    height: 320px;
+    height: 330px;
+  }
+  .summary-box1, .summary-box2, .summary-box3, .summary-box4 {
+    padding: 15px;
   }
   .summary-box1 .summary-icon, .summary-box2 .summary-icon, .summary-box3 .summary-icon, .summary-box4 .summary-icon {
     background-color: white;
@@ -373,9 +372,9 @@ p {
   }
   .summary-box1 h2, .summary-box2 h2, .summary-box3 h2, .summary-box4 h2 {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .summary-box1 h4, .summary-box2 h4, .summary-box3 h4, .summary-box4 h4 {
     color: #ecf6fb;
