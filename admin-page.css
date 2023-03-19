@@ -431,6 +431,7 @@ p {
   }
   .profile-container {
     margin-bottom: 20px;
+    padding: 0px;
   }
   .profile-container img {
     width: 150px;
@@ -438,7 +439,8 @@ p {
   }
   .profile-text {
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
+    float: left;
   }
   .profile-text h1 {
     font-size: 20px;
