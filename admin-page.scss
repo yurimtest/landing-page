@@ -342,9 +342,11 @@ h3 {
         width:80px;
         height:30px;
         font-size: 13px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
     .input-animation:focus {
-        width:90px;
+        width:80px;
     }
     .search-botton {
         height:30px;
