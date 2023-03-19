@@ -304,6 +304,7 @@ p {
   height: 35px;
   border-radius: 10px;
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .task-container {
@@ -450,5 +451,8 @@ p {
   }
   .profile-text .profile-btn-behance, .profile-text .profile-btn-insta {
     margin-top: 0px;
+    width: 80px;
+    height: 35px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=admin-page.css.map */
