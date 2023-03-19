@@ -440,7 +440,7 @@ p {
   }
   .profile-text {
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 0px;
     float: left;
   }
   .profile-text h1 {
