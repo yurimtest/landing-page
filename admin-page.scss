@@ -18,6 +18,7 @@ h2 {
 p {
     font-family: kopub-m;
     color:$icolor;
+    font-size:18px;
 }
 .checkbox-button {
 float:right;
@@ -173,7 +174,7 @@ font-size: 10px;
     .caret-text {
         float:right;
         i {
-            margin-right:05px;
+            margin-right:5px;
         }
         p {
             color:white;
@@ -246,6 +247,13 @@ font-size: 10px;
         }
     }
 }
+.profile-container {
+    margin-bottom: 0px;
+    img {
+        width:200px;
+        float:left;
+    }
+}
 .profile-text {
     margin-top:30px;
     margin-left:20px;
@@ -258,6 +266,13 @@ h3 {
     font-size: 15px;
     font-family: kopub-b;
     color:gray;
+}
+p {
+    color:#2767dd;
+    font-size:12px;
+    font-family:kopub-m;
+    float:left;
+    margin-left:5px;
 }
 .profile-btn-behance {
   @extend %profile-btn;
@@ -302,6 +317,15 @@ h3 {
 
 
 @media screen and (max-width : 992px) {
+    h1 {
+        font-size:20px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    p {
+        font-size:15px;
+    }
     
     .box-sidebar {
         i {
@@ -364,7 +388,7 @@ h3 {
         padding:15px;
     }
     .summary-container {
-        height: 350px;
+        height: 330px;
     }
     %summary-box-content {
         padding:15px;
@@ -381,7 +405,7 @@ h3 {
             color:white;
             font-size: 15px;
             margin:0;
-            margin-top:10px;
+            margin-top:18px;
         }
         h4 {
            color:$mainbar-bg;
@@ -402,11 +426,35 @@ h3 {
     
     .cart-container {
         .cart-box {
-        height:180px;
-        margin-bottom:30px;
+        height:170px;
+        margin-bottom:20px;
+        padding:5px;
        }
     }
     .cart-task-container {
         padding:0px;
     }
+    .profile-container {
+        margin-bottom: 20px;
+        img {
+            width:150px;
+            float:left;
+        }
+    }
+    .profile-text {
+        margin-top:15px;
+        margin-left:20px;
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+%profile-btn {
+    margin-top:0px;
+}
 }
