@@ -327,6 +327,7 @@ p {
   color: white;
   width: 45px;
   float: right;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 992px) {
@@ -444,7 +445,7 @@ p {
     float: left;
   }
   .profile-text h1 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .profile-text h3 {
     font-size: 13px;
@@ -456,5 +457,12 @@ p {
     width: 80px;
     height: 35px;
     font-size: 13px;
+  }
+  .task-content p {
+    font-size: 15px;
+  }
+  .task-content .task-btn {
+    width: 35px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=admin-page.css.map */
