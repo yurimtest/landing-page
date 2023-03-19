@@ -272,6 +272,7 @@ p {
 .profile-text {
   margin-top: 30px;
   margin-left: 20px;
+  float: left;
 }
 .profile-text h1 {
   font-size: 25px;
@@ -287,14 +288,14 @@ p {
   color: #2767dd;
   font-size: 12px;
   font-family: kopub-m;
-  float: left;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .profile-text .profile-btn-behance {
   background: linear-gradient(220deg, #00d2ff 0%, #3a47d5 100%);
 }
 .profile-text .profile-btn-insta {
   background-image: linear-gradient(-20deg, #00cd96 0%, #7ceae3 100%);
+  margin-left: 10px;
 }
 
 .profile-text .profile-btn-behance, .profile-text .profile-btn-insta {
@@ -303,8 +304,8 @@ p {
   width: 100px;
   height: 35px;
   border-radius: 10px;
-  margin-top: 20px;
   font-size: 16px;
+  float: left;
 }
 
 .task-container {
@@ -422,9 +423,9 @@ p {
     font-size: 0px;
   }
   .cart-container .cart-box {
-    height: 170px;
+    height: 160px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 10px;
   }
   .cart-task-container {
     padding: 0px;
@@ -434,7 +435,7 @@ p {
     padding: 0px;
   }
   .profile-container img {
-    width: 150px;
+    width: 140px;
     float: left;
   }
   .profile-text {
@@ -452,7 +453,6 @@ p {
     font-size: 12px;
   }
   .profile-text .profile-btn-behance, .profile-text .profile-btn-insta {
-    margin-top: 0px;
     width: 80px;
     height: 35px;
     font-size: 13px;

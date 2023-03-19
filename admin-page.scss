@@ -257,6 +257,7 @@ font-size: 10px;
 .profile-text {
     margin-top:30px;
     margin-left:20px;
+    float:left;
 h1 {
     font-size: 25px;
     font-family: kopub-b;
@@ -271,16 +272,20 @@ p {
     color:#2767dd;
     font-size:12px;
     font-family:kopub-m;
-    float:left;
-    margin-left:5px;
+    margin-left:20px;
+    
 }
 .profile-btn-behance {
   @extend %profile-btn;
   background: linear-gradient(220deg, #00d2ff 0%, #3a47d5 100%);
+  
+  
+  
 }
 .profile-btn-insta {
     @extend %profile-btn;
     background-image: linear-gradient(-20deg, #00cd96 0%, #7ceae3 100%);
+    margin-left:10px;
   }
 }
 %profile-btn {
@@ -289,8 +294,10 @@ p {
     width:100px;
     height:35px;
     border-radius: 10px;
-    margin-top:20px;
     font-size:16px;
+    float:left;
+    
+    
 }
 
 .task-container {
@@ -427,9 +434,9 @@ p {
     
     .cart-container {
         .cart-box {
-        height:170px;
+        height:160px;
         margin-bottom:20px;
-        padding:5px;
+        padding:10px;
        }
     }
     .cart-task-container {
@@ -439,7 +446,7 @@ p {
         margin-bottom: 20px;
         padding:0px;
         img {
-            width:150px;
+            width:140px;
             float:left;
         }
     }
@@ -458,7 +465,6 @@ p {
     }
 }
 %profile-btn {
-    margin-top:0px;
     width:80px;
     height:35px;
     font-size:13px;
